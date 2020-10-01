@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openMainMenu();
+                openMainActivity6();
             }
         });
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openMainMenu();
+                openMainActivity6();
             }
 
         });
@@ -38,17 +38,17 @@ public class MainActivity extends AppCompatActivity {
         button17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openMainActivity8();
+                openMainActivity9();
             }
         });
     }
 
-    public void openMainMenu() {
-        Intent intent = new Intent(this, MainMenu.class);
+    public void openMainActivity6() {
+        Intent intent = new Intent(this, MainActivity6.class);
         startActivity(intent);
     }
-    public void openMainActivity8(){
-        Intent intent = new Intent(this, MainActivity8.class);
+    public void openMainActivity9(){
+        Intent intent = new Intent(this, MainActivity9.class);
         startActivity(intent);
     }
 }
